@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html  lang ="pt" >
+<head>
+ <meta  charset =" UTF-8 " >
+ <meta  http-equiv =" X-UA-Compatible " content =" IE=edge " >
+ <meta  name =" janela-de-visualização " content =" largura=largura do dispositivo, escala inicial=1,0 " >
+  <title> loja </title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+ <header class =" cabecalho " >
+    <img class ="cabecalho-imagem" src =" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9K4_RsF1DcyyQ4jlO1Ivrj1Q3lG3TvGSzKKjKHgaBJZ0istHPs4nAvAsNQ_bG1KZX3E4&usqp=CAU " alt =" logo do cep " >
+    <ul class =" cabecalho-lista " >
+      <li class =" cabecalho-lista-item " > Colégio Estadual do Paraná </li >
+      <li class =" cabecalho-lista-item " > Estudantes </li >
+    </ul> 
+     </header>
+    
+     <section class ="escola" >
+       <div class ="título-da-escola" > 
+        <h2>Sobre a escola</h2 >    
+         <p class="escola-texto-um">Esse site será utilizado para apresentar trabalhos e <br>atividades referentes a todas as matérias.</p>
+       </div>
+        
+    <img class="escola-imagem" src="./cep-fachada-jose-fernando-ogura-aen-660x372_1.jpg" alt="imagem do cep">
+    </section>
+  
+    <baseboard>

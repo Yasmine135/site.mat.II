@@ -24,6 +24,40 @@
     font-size: 24px;
     
   }
+
+  .banner{
+    background: var(--#d17f7f);
+    color: var(--#851527);
+    text-align: center;
+    padding: 2.5em 2em;
+}
+
+.banner__título{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.banner__texto{
+    text-align: center;
+    font-size: 20px;
+    margin: 1em 0;
+}
+
+.banner__pesquisa{
+    background-color: transparent;
+    border: 1px solid var(--purple);
+    color: var(--purple);
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+}
+
+.banner__pesquisa::placeholder{
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
+}
   
   .escolaimagem{
     width: 20%;

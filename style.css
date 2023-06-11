@@ -78,3 +78,35 @@
   width: 1
   0%; border-radius: 60%;
 }
+
+/*RODAPÉ DA PÁGINA*/
+.footer1 {
+  padding: 10px;
+  text-align: center;
+  background-color:#302f4a;
+}
+
+/*NAVEGAÇÃO E LINKS*/
+nav {
+  top: 110px;
+  text-align: center;
+}
+
+nav li {
+  margin: 0 0 0 15px;
+  display: inline;
+}
+
+nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+  color: #010101;
+
+}
+
+nav a:hover {
+  transition: 0.5s;
+  color: rgb(255, 255, 255);
+}

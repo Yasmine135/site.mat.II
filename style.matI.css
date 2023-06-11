@@ -33,13 +33,13 @@
 
 .banner__título{
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
 }
 
 .banner__texto{
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     margin: 1em 0;
 }
 
@@ -56,7 +56,7 @@
   border: 1px solid var(--#2a0e5e);
     color: var(--#2a0e5e);
     font-family: var(--fonte-principal);
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
 }
   

@@ -3,6 +3,9 @@
   padding: 0;
 }
 
+.body{
+  background-color: rgb(105, 14, 14)
+}
 
 .cabecalho{
    background-color: #d17f7f; 

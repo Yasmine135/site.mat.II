@@ -47,7 +47,7 @@
 .banner__pesquisa{
     background-color: transparent;
     border: 1px solid var(--#2a0e5e);
-    color: var(--p#2a0e5e);
+    color: var(--#2a0e5e);
     border-radius: 24px;
     padding: 1em;
     width: 100%;
@@ -55,7 +55,7 @@
 
 .banner__pesquisa::placeholder{
   border: 1px solid var(--#2a0e5e);
-    color: var(--p#2a0e5e);
+    color: var(--#2a0e5e);
     font-family: var(--fonte-principal);
     font-size: 14px;
     font-weight: 400;

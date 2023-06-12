@@ -31,18 +31,22 @@
 
   .banner{
     background: #d17f7f;
-    color: var(--#2a0e5e);
+    color:#2a0e5e;
     text-align: center;
     padding: 2.5em 2em;
 }
 
 .banner__título{
+  background: #d17f7f;
+  color:#2a0e5e;
     text-align: center;
     font-size: 18px;
     font-weight: 700;
 }
 
 .banner__texto{
+  background: #d17f7f;
+  color:#2a0e5e;
     text-align: center;
     font-size: 16px;
     margin: 1em 0;

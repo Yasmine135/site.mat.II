@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: #2a0e5e;
   }
 
   @import url(“styles/banner.css”);

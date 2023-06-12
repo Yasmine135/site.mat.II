@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    background: #610606
   }
 
   @import url(“styles/banner.css”);
@@ -97,19 +98,6 @@
   .título-da-escola{
     padding: 24px 0;
   }
-
-  .estudantes{
-    background-image:linear-gradient(#360303,#360303);
-    color:rgb(240, 213, 187);
-    display: flex;}
-  
-.baseboard{
-  background-color: #d17f7f; 
-  color:#851527;
-  display: flex;
-  justify-content: space-around;
-  padding: 24px 0;
-}
 
 .img{
   width: 100%; border-radius: 60%;

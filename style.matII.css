@@ -126,11 +126,13 @@ nav {
 }
 
 nav li {
+  background-color: #d17f7f;
   margin: 0 0 0 15px;
   display: inline;
 }
 
 nav a {
+  background-color: #d17f7f;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
@@ -140,6 +142,7 @@ nav a {
 }
 
 nav a:hover {
+  background-color: #d17f7f;
   transition: 0.5s;
   color: rgb(119, 30, 49);
 }

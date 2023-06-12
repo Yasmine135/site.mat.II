@@ -30,7 +30,7 @@
   }
 
   .banner{
-    background: var(--#d17f7f);
+    background: #d17f7f;
     color: var(--#2a0e5e);
     text-align: center;
     padding: 2.5em 2em;

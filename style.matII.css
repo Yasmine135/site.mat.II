@@ -6,8 +6,9 @@
   @import url(“styles/banner.css”);
 
   .head{
-    background-color: #4d0114;
+    background: #4d0114;
   }
+
   .cabecalho{
      background-color: #d17f7f; 
      color:#2a0e5e;

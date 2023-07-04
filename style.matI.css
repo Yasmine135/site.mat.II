@@ -1,119 +1,124 @@
-*{
-    margin: 0;
-    padding: 0;
-  }
+@import url(carrossel.css);
 
-  @import url(“styles/banner.css”);
-  @import url(“carrossel.css”);
-
-  .cabecalho{
-     background-color: #d17f7f; 
-     color:#2a0e5e;
-     display: flex;
-     justify-content: space-around;
-     padding: 24px 0;
-     font-size: 22px;
-  }
-  
-    .cabecalho-imagem{
-      width: 1
-      0%; border-radius: 50%;
-  }
-    .cabecalho-lista-item{
-    display: inline-block;
-    margin: 016px;
-    
-  }
-
-  .banner{
-    background: var(--#d17f7f);
-    color: var(--#2a0e5e);
-    text-align: center;
-    padding: 2.5em 2em;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.banner__título{
-    text-align: center;
-    font-size: 16px;
-    font-weight: 700;
+.cabecalho {
+  background-color: #d17f7f;
+  color: #2a0e5e;
+  display: flex;
+  justify-content: space-around;
+  padding: 24px 0;
+  font-size: 22px;
 }
 
-.banner__texto{
-    text-align: center;
-    font-size: 14px;
-    margin: 1em 0;
+.cabecalho-imagem {
+  width: 1 0%;
+  border-radius: 50%;
 }
 
-.banner__pesquisa{
-    background-color: transparent;
-    border: 1px solid var(--#2a0e5e);
-    color: var(--#2a0e5e);
-    border-radius: 24px;
-    padding: 1em;
-    width: 100%;
+.cabecalho-lista-item {
+  display: inline-block;
+  margin: 016px;
+
 }
 
-.banner__pesquisa::placeholder{
+.banner {
+  background: var(--#d17f7f);
+  color: var(--#2a0e5e);
+  text-align: center;
+  padding: 2.5em 2em;
+}
+
+.banner__título {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.banner__texto {
+  text-align: center;
+  font-size: 14px;
+  margin: 1em 0;
+}
+
+.banner__pesquisa {
+  background-color: transparent;
   border: 1px solid var(--#2a0e5e);
-    color: var(--#2a0e5e);
-    font-family: var(--fonte-principal);
-    font-size: 12px;
-    font-weight: 400;
+  color: var(--#2a0e5e);
+  border-radius: 24px;
+  padding: 1em;
+  width: 100%;
 }
-  
-  .escolaimagem{
-    width: 20%;
-  }
-  
-  .escola{
-    background-image:linear-gradient(#610606,#5c1c1c);
-    color:rgb(240, 213, 187);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0;
-  }
-  
+
+.banner__pesquisa::placeholder {
+  border: 1px solid var(--#2a0e5e);
+  color: var(--#2a0e5e);
+  font-family: var(--fonte-principal);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.escolaimagem {
+  width: 20%;
+}
+
+.escola {
+  background-image: linear-gradient(#610606, #5c1c1c);
+  color: rgb(240, 213, 187);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0;
+}
+
 .alunos-div {
   text-align: center;
   padding: 50px 0;
 }
 
 .alunos-todos {
-   display: grid;
-   grid-template-columns: 25% 25% 25% 25%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
 
 }
-.estudante-isolado{
+
+.estudante-isolado {
   text-align: center
 }
 
-.roda-pé-imagem{
+.roda-pé-imagem {
   height: 70px;
   padding: 12px 0;
 }
-  .escola-div-conteudo{
-    width: 35%;
-  }
-  .título-da-escola{
-    padding: 24px 0;
-  }
 
-  .estudantes{
-    background-image:linear-gradient(#360303,#360303);
-    color:rgb(240, 213, 187);
-    display: flex;}
-  
-.baseboard{
-  background-color: #d17f7f; 
-  color:#851527;
+.escola-div-conteudo {
+  width: 35%;
+}
+
+.título-da-escola {
+  padding: 24px 0;
+}
+
+.estudantes {
+  background-image: linear-gradient(#360303, #360303);
+  color: rgb(240, 213, 187);
+  display: flex;
+}
+
+.baseboard {
+  background-color: #d17f7f;
+  color: #851527;
   display: flex;
   justify-content: space-around;
   padding: 24px 0;
 }
 
-.img{
-  width: 100%; border-radius: 60%;
+.img {
+  width: 100%;
+  border-radius: 60%;
 }
 
 .carrossel__titulo {
@@ -195,7 +200,7 @@
 .footer1 {
   padding: 10px;
   text-align: center;
-  background-color:#d17f7f;
+  background-color: #d17f7f;
 }
 
 /*NAVEGAÇÃO E LINKS*/

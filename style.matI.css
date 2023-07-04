@@ -116,53 +116,6 @@
   width: 100%; border-radius: 60%;
 }
 
-/*RODAPÉ DA PÁGINA*/
-.footer1 {
-  padding: 10px;
-  text-align: center;
-  background-color:#d17f7f;
-}
-
-/*NAVEGAÇÃO E LINKS*/
-nav {
-  top: 110px;
-  text-align: center;
-}
-
-nav li {
-  margin: 0 0 0 15px;
-  display: inline;
-}
-
-nav a {
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 22px;
-  color: #aa4848;
-
-}
-
-nav a:hover {
-  transition: 0.5s;
-  color: rgb(119, 30, 49);
-}
-
-.carrosel {
-  text-align: center;
-  background-color: rgb(185, 185, 185);
-}
-
-@media screen and (max-width: 394px)
-{
-    margin: 0;
-    padding: 0;
-}
-user agent stylesheet
-section {
-    display: block;
-}
-
 .carrossel__titulo {
   color: var(--laranja);
   background-color: var(--branco);
@@ -238,50 +191,34 @@ section {
   text-decoration: none;
 }
 
-.carrosel {
+/*RODAPÉ DA PÁGINA*/
+.footer1 {
+  padding: 10px;
   text-align: center;
-  background-color: rgb(185, 185, 185);
+  background-color:#d17f7f;
 }
 
-.slides-list {
-  /* remove os estilos da lista */
-  list-style-type: none;
-  margin: 10px 0;
-  padding: 0;
-  width: 400%;
-  position: relative;
-  left: 0%;
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 1fr;
-  --selected-item: 0;
-  position: relative;
-  left: calc(var(--selected-item) * -100%);
-  transition: left 0.4s cubic-bezier(0.680, -0.550, 0.265, 1.550);
-  --total-items: 6;
-  width: calc(var(--total-items) * 100%);
+/*NAVEGAÇÃO E LINKS*/
+nav {
+  top: 110px;
+  text-align: center;
 }
 
-.redondo {
-  width: 100%;
+nav li {
+  margin: 0 0 0 15px;
+  display: inline;
 }
 
-.slide-show {
-  overflow: hidden;
+nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+  color: #aa4848;
+
 }
 
-.slide-controller:nth-child(1):checked~.slide-show .slides-list {
-  --selected-item: 0;
-}
-
-.slide-controller:nth-child(2):checked~.slide-show .slides-list {
-  --selected-item: 1;
-}
-
-.slide-controller:nth-child(3):checked~.slide-show .slides-list {
-  --selected-item: 2;
-}
-
-.slide-controller:nth-child(4):checked~.slide-show .slides-list {
-  --selected-item: 3;
+nav a:hover {
+  transition: 0.5s;
+  color: rgb(119, 30, 49);
 }

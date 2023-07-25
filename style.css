@@ -1,4 +1,4 @@
-@media screen and (mib-width:1008px) {*{
+@media screen and (min-width:1008px) {*{
   margin: 0;
   padding: 0;
 }

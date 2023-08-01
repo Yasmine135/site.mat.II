@@ -160,7 +160,7 @@ padding: 24px 0;
 .comentários__resposta{
   background-color: transparent;
   border: 1px solid var(--#2a0e5e);
-  color: var(--#2a0e5e);
+  color: var(--#fdfdfd);
   border-radius: 18px;
   padding: 1em;
   width: 70%;
@@ -168,7 +168,7 @@ padding: 24px 0;
 
 .comentários__resposta::placeholder{
   border: 1px solid var(--#2a0e5e);
-    color: var(--#2a0e5e);
+    color: var(--#ffffff);
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 300;
@@ -185,7 +185,7 @@ padding: 24px 0;
   
   .comentários__botão::placeholder{
     border: 1px solid var(--#2a0e5e);
-      color: var(--#2a0e5e);
+      color: var(--#ffffff);
       font-family: var(--fonte-principal);
       font-size: 16px;
       font-weight: 300;

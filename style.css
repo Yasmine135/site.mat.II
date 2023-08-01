@@ -213,7 +213,6 @@ padding: 24px 0;
 .cabecalho-imagem {
   width: 55%; 
   border-radius: 50%;
-  justify-content: center;
   align-items: center;
   padding: 24px;
   flex-direction: row;

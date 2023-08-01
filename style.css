@@ -176,8 +176,8 @@ padding: 24px 0;
   
   .comentários__botão{
     background-color: rgb(240, 213, 187);
-    border: 1px solid var(--#2a0e5e);
-    color: var(--#2a0e5e);
+    border: 1px solid var(--#a08ac9);
+    color: var(--#ffffff);
     border-radius: 18px;
     padding: 1em;
     width: 70%;

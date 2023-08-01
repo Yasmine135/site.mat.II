@@ -209,8 +209,12 @@ padding: 24px 0;
 }
 
   .cabecalho-imagem{
-    width: 1
-    0%; border-radius: 50%;
+    width: 100%; 
+    border-radius: 50%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
 }
   .cabecalho-lista-item{
   display: inline-block;

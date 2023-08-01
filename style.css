@@ -254,8 +254,8 @@ border: 1px solid var(--#2a0e5e);
   font-weight: 400;
 }
 
-.escolaimagem{
-  width: 20%;
+.escola-imagem{
+  width: 99%;
 }
 
 .escola{
@@ -305,7 +305,7 @@ padding: 24px 0;
 }
 
 .img{
-width: 60%; border-radius: 40%;
+width: 100%; border-radius: 40%;
 }
 
 /*RODAPÉ DA PÁGINA*/

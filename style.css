@@ -191,7 +191,7 @@ padding: 24px 0;
       font-weight: 300;
     }
 }
-@media screen and (min-width:1px) and (max-width:1008px) {
+@media screen and (min-width:690px) and (max-width:1008px) {
   *{
   margin: 0;
   padding: 0;

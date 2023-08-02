@@ -62,13 +62,14 @@ border: 1px solid var(--#2a0e5e);
 }
 
 .escola-imagem{
-  width: 90%;
+  width: 20%;
 }
 
 .escola{
   background-image:linear-gradient(#610606,#5c1c1c);
   color:rgb(240, 213, 187);
   justify-content: center;
+  display: flex;
   align-items: center;
   padding: 24px;
 }
@@ -410,7 +411,7 @@ padding: 24px 0;
 }
 
 .cabecalho-imagem {
-  width: 40%; 
+  width: %; 
   border-radius: 50%;
   align-items: center;
   padding: 24px 5;

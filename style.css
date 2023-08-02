@@ -390,3 +390,203 @@ padding: 24px 0;
       font-weight: 300;
     }
 }
+
+@media screen and (min-width:1px) and (max-width:690px) {
+  *{
+  margin: 0;
+  padding: 0;
+}
+
+@import url(“styles/banner.css”);
+
+.cabecalho{
+   background-color: #d17f7f; 
+   color:#2a0e5e;
+   justify-content: space-around;
+   padding: 24px;
+   font-size: 22px;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+}
+
+.cabecalho-imagem {
+  width: 29%; 
+  border-radius: 50%;
+  align-items: center;
+  padding: 24px 5;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+  .cabecalho-lista-item{
+  display: inline-block;
+  margin: 016px;
+  
+}
+
+.banner{
+  background: var(--#d17f7f);
+  color: var(--#2a0e5e);
+  text-align: center;
+  padding: 2.5em 2em;
+}
+
+.banner__título{
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.banner__texto{
+  text-align: center;
+  font-size: 22px;
+  margin: 1em 0;
+}
+
+.banner__pesquisa{
+  background-color: transparent;
+  border: 1px solid var(--#2a0e5e);
+  color: var(--#2a0e5e);
+  border-radius: 24px;
+  padding: 1em;
+  width: 100%;
+}
+
+.banner__pesquisa::placeholder{
+border: 1px solid var(--#2a0e5e);
+  color: var(--#2a0e5e);
+  font-family: var(--fonte-principal);
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.escola-imagem{
+  width: 99%;
+}
+
+.escola{
+  background-image:linear-gradient(#610606,#5c1c1c);
+  color:rgb(240, 213, 187);
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.alunos-div {
+text-align: center;
+padding: 50px 0;
+}
+
+.alunos-todos {
+ display: grid;
+ grid-template-columns: 25% 25% 25% 25%;
+
+}
+.estudante-isolado{
+text-align: center
+}
+
+.roda-pé-imagem{
+height: 70px;
+padding: 12px 0;
+}
+.escola-div-conteudo{
+  width: 35%;
+}
+.título-da-escola{
+  padding: 24px 0;
+}
+
+.estudantes{
+  background-image:linear-gradient(#360303,#360303);
+  color:rgb(240, 213, 187);
+  display: flex;}
+
+.baseboard{
+background-color: #d17f7f; 
+color:#851527;
+display: flex;
+justify-content: space-around;
+padding: 24px 0;
+}
+
+.img{
+width: 100%; border-radius: 40%;
+}
+
+/*RODAPÉ DA PÁGINA*/
+.footer1 {
+padding: 10px;
+text-align: center;
+background-color:#d17f7f;
+}
+
+/*NAVEGAÇÃO E LINKS*/
+nav {
+top: 110px;
+text-align: center;
+}
+
+nav li {
+margin: 0 0 0 15px;
+display: inline;
+}
+
+nav a {
+text-transform: uppercase;
+text-decoration: none;
+font-weight: bold;
+font-size: 22px;
+color: #aa4848;
+
+}
+
+nav a:hover {
+transition: 0.5s;
+color: rgb(119, 30, 49);
+}
+
+.comentários{
+background-image:linear-gradient(#610606,#5c1c1c);
+color:rgb(240, 213, 187);
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 24px 0;
+}
+
+.comentários__resposta{
+  background-color: transparent;
+  border: 1px solid var(--#2a0e5e);
+  color: var(--#fdfdfd);
+  border-radius: 18px;
+  padding: 1em;
+  width: 70%;
+}
+
+.comentários__resposta::placeholder{
+  border: 1px solid var(--#2a0e5e);
+    color: var(--#ffffff);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  .comentários__botão{
+    background-color: rgb(240, 213, 187);
+    border: 1px solid var(--#a08ac9);
+    color: var(--#ffffff);
+    border-radius: 18px;
+    padding: 1em;
+    width: 70%;
+  }
+  
+  .comentários__botão::placeholder{
+    border: 1px solid var(--#2a0e5e);
+      color: var(--#ffffff);
+      font-family: var(--fonte-principal);
+      font-size: 16px;
+      font-weight: 300;
+    }
+}

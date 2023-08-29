@@ -129,6 +129,15 @@
   cursor: pointer;
 }
 
+.alerta__botão {
+  background-color: rgb(240, 213, 187);
+  border: 1px solid var(--#a08ac9);
+  color: var(--#ffffff);
+  border-radius: 18px;
+  padding: 1em;
+  width: 70%;
+}
+
   /*RODAPÉ DA PÁGINA*/
   .footer1 {
     padding: 10px;

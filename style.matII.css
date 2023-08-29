@@ -108,6 +108,31 @@
   width: 100%; border-radius: 60%;
 }
 
+.teclado{
+  background-color: antiquewhite;
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.tecla{
+  background-color: aliceblue; 
+  color: #a08ac9;
+}
+
+.tecla.ativa
+.tecla.active{
+  background-color: #a08ac9;
+  color: aliceblue;
+}
+
+.tecla.focus{
+  outline: none;
+  box-shadow: 1px 1px 10px purple;
+}
+
+
 /*RODAPÉ DA PÁGINA*/
 .footer1 {
   padding: 10px;

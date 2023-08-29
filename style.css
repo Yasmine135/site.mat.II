@@ -130,13 +130,15 @@
 }
 
 .alerta__botão {
-  align-text: center;
+  align-items: center;
   background-color: rgb(240, 213, 187);
   border: 1px solid var(--#a08ac9);
   color: var(--#ffffff);
-  border-radius: 18px;
-  padding: 1em;
   width: 70%;
+  padding: 40px 30px;
+  border-radius: 30px;
+  box-shadow: 3px 3px 0 #ffffff;
+  cursor: pointer;
 }
 
   /*RODAPÉ DA PÁGINA*/

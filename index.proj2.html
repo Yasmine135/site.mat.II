@@ -5,7 +5,7 @@
  <meta  http-equiv =" X-UA-Compatible " content =" IE=edge " >
  <meta  name =" janela-de-visualização " content =" largura=largura do dispositivo, escala inicial=1,0 " >
   <title>matII</title>
-  <link rel="stylesheet" href="style.matI.css">
+  <link rel="stylesheet" href="style.css">
   
 </head>
 <body>
@@ -30,70 +30,14 @@
      </header>
 
      <body>
+<h1>Projeto 2 - Central de Segurança</h1>
+  <h2>Imagens- passo a passo da montagem</h2>
+  <img class="escola-imagem" src="pp1.jpg" alt="a-cara-da-Manu">
+  <img class="escola-imagem" src="pp2.jpg" alt="a-cara-da-Manu">
+  <img class="escola-imagem" src="pp3.jpg" alt="a-cara-da-Manu">
+  <img class="escola-imagem" src="pp4.jpg" alt="a-cara-da-Manu">
+  
 
-        <section class="escola">
-            <section class="carrosel">
-              <h2 class="corpo-titulo">Acompanhe as novidades:</h2>
-              <div class="slide-show">
-                <ul class="slides-list">
-                    <li class="slide">
-                        <a href="#">
-                          <img class="redondo"
-                            src="pp1.jpg" />
-                        </a>
-                      </li>
-                      <li class="slide">
-                        <a href="#">
-                          <img class="redondo"
-                            src="pp2.jpg" />
-                        </a>
-                      </li>
-                      <li class="slide">
-                        <a href="#">
-                          <img class="redondo"
-                            src="pp3.jpg" />
-                        </a>
-                      </li>
-                      <li class="slide">
-                        <a href="#">
-                          <img class="redondo"
-                            src="pp4.jpg" />
-                        </a>
-                      </li>
-                </ul>
-              </div>
-              <input type="radio" class="slide-controller" name="slide" checked />
-              <input type="radio" class="slide-controller" name="slide" />
-              <input type="radio" class="slide-controller" name="slide" />
-              <input type="radio" class="slide-controller" name="slide" />
-              <input type="radio" class="slide-controller" name="slide" />
-              <input type="radio" class="slide-controller" name="slide" />
-            </section>
-            <script>
-              const slideControllers = document.querySelectorAll('.slide-controller');
-              const slidesList = document.querySelector('.slides-list');
-              let currentSlide = 0;
-        
-              // Adicionar um evento de clique para cada controlador de slide
-              slideControllers.forEach((controller, index) => {
-                controller.addEventListener('click', () => {
-                  currentSlide = index;
-                  slidesList.style.left = `calc(${index} * -100%)`;
-                });
-              });
-        
-              // Função para alterar os slides automaticamente após 20 segundos
-              function autoChangeSlide() {
-                currentSlide = (currentSlide + 1) % slideControllers.length;
-                slideControllers[currentSlide].checked = true;
-                slidesList.style.left = `calc(${currentSlide} * -100%)`;
-              }
-              // Definir um temporizador para alternar automaticamente os slides a cada 20 segundos (20000 milissegundos)
-              setInterval(autoChangeSlide, 10000);
-            </script>
-        
-          </section>
-        
           <footer class="footer1">
             <p class="copyright">
               <b&copy;>𝑪𝒐𝒍𝒆́𝒈𝒊𝒐 𝑬𝒔𝒕𝒂𝒅𝒖𝒂𝒍 𝒅𝒐 𝑷𝒂𝒓𝒂𝒏𝒂́ - 2023.</b>

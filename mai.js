@@ -12,5 +12,3 @@ while(Contador < 9) {
     console.log(Contador);
 }
 
-document.querySelectorAll('.tecla').onclick = TocaSom;
-

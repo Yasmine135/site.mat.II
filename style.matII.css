@@ -121,13 +121,14 @@
   color: #a08ac9;
 }
 
-.tecla.ativa
-.tecla.active{
+.tecla.ativa,
+.tecla:active{
   background-color: #a08ac9;
   color: aliceblue;
 }
 
-.tecla.focus{
+.tecla:focus,
+.tecla:focus{
   outline: none;
   box-shadow: 1px 1px 10px purple;
 }

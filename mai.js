@@ -26,4 +26,3 @@ while(Contador < ListaDeSons.length) {
  tecla.classList.remove('ativa');
 
 }
-

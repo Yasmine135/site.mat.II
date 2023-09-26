@@ -7,7 +7,7 @@ const ListaDeSons = document.querySelectorAll('.tecla');
 let Contador = 0;
 
 while(Contador < ListaDeSons.length) {
-    const tecla = TocaSomPom[Contador];
+    const tecla = ListaDeSons[Contador];
     const classe = tecla.ListaDeSons[1];
     console.log(classe);
 

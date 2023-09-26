@@ -14,7 +14,7 @@ while(Contador < ListaDeSons.length) {
     const idVozes = `#som_${classe}`;
     console.log(idVozes)
 
-    
+
     ListaDeSons[Contador].onclick = function () {
     TocaSomPom(idVozes);
     }

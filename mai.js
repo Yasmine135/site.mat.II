@@ -8,7 +8,7 @@ let Contador = 0;
 
 while(Contador < ListaDeSons.length) {
     const tecla = TocaSomPom[Contador];
-    const classe = tecla.classList[1];
+    const classe = tecla.ListaDeSons[1];
     console.log(classe);
 
     const idVozes = `#som_${classe}`;

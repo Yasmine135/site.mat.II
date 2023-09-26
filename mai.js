@@ -14,7 +14,7 @@ while(Contador < ListaDeSons.length) {
     console.log(idVozes)
 
     ListaDeSons[Contador].onclick = function () {
-        TocaSomPom('#som-tecla-pom');
+        TocaSomPom(idVozes);
     }
 
     Contador = Contador + 1;

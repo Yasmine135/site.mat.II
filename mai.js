@@ -23,11 +23,11 @@ while(Contador < ListaDeSons.length) {
     console.log(Contador);
 
   tecla.onkeydown = function (evento) {
-  tecla.classLit.add('ativa');
+  tecla.classList.add('ativa');
   console.log(evento.code === 'Space');
   }
 
    tecla.onkeyup = function () { 
-    tecla.clList.remove('ativa');
+    tecla.classList.remove('ativa');
    }
 }

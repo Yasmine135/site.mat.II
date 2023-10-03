@@ -32,6 +32,6 @@ while(Contador < ListaDeSons.length) {
   console.log(evento.code === 'Space');
   }
 
-   tecla.onkeyup = () {
+   tecla.onkeyup = function () { 
     tecla.clList.remove('ativa');
    }

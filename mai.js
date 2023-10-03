@@ -23,8 +23,10 @@ while(Contador < ListaDeSons.length) {
     console.log(Contador);
 
   tecla.onkeydown = function (evento) {
+    if (evento.code === 'Space'|| evento.code  === 'Enter') { }
   tecla.classList.add('ativa');
-  console.log(evento.code === 'Space');
+  //console.log(evento.code === 'Space'|| evento.code  === 'Enter');
+
   }
 
    tecla.onkeyup = function () { 

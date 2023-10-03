@@ -22,12 +22,7 @@ while(Contador < ListaDeSons.length) {
     Contador = Contador + 1;
     console.log(Contador);
 
- tecla.classList.add('ativa');
- tecla.classList.remove('ativa');
-
-}
-
-  tecla.onkeydow = function (evento) {
+  tecla.onkeydown = function (evento) {
   tecla.classLit.add('ativa');
   console.log(evento.code === 'Space');
   }
@@ -35,3 +30,4 @@ while(Contador < ListaDeSons.length) {
    tecla.onkeyup = function () { 
     tecla.clList.remove('ativa');
    }
+}

@@ -26,3 +26,12 @@ while(Contador < ListaDeSons.length) {
  tecla.classList.remove('ativa');
 
 }
+
+  tecla.onkeydow = function (evento) {
+  tecla.classLit.add('ativa');
+  console.log(evento.code === 'Space');
+  }
+
+   tecla.onkeyup = () {
+    tecla.clList.remove('ativa');
+   }

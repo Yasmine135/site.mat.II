@@ -6,7 +6,7 @@ const ListaDeSons = document.querySelectorAll('.tecla');
 
 let Contador = 0;
 
-while(Contador < ListaDeSons.length) {
+form(Contador < ListaDeSons.length) {
     const tecla = ListaDeSons[Contador];
     const classe = tecla.classList[1];
     console.log(classe);

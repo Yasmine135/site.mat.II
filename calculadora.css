@@ -5,13 +5,15 @@
   }
 
   .margem {
-    padding: 1%;
-    border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0;
     
   }
   .mesmo-tamanho {
-    border-radius: 1px;
-    
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0;
 }
 
 .display {

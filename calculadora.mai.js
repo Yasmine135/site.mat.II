@@ -17,7 +17,7 @@ function botao(dado) {
     var hora = agora.getHours();
     
     if(hora >= 0 && hora <= 12){
-      document.getElementById("historico").textContent = "Que conta burra...";
+      document.getElementById("historico").textContent = "Precisa mesmo de calculadora?";
     }
     if(hora >= 13 && hora <= 17){
       document.getElementById("historico").textContent = "Acho que esse número está errado, em";

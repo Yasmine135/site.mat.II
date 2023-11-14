@@ -17,10 +17,10 @@ function botao(dado) {
     var hora = agora.getHours();
     
     if(hora >= 0 && hora <= 12){
-      document.getElementById("historico").textContent = "Precisa mesmo de calculadora?";
+      document.getElementById("historico").textContent = ".";
     }
     if(hora >= 13 && hora <= 17){
-      document.getElementById("historico").textContent = "Acho que esse número está errado, em";
+      document.getElementById("historico").textContent = "..";
     }
     if(hora >= 18 && hora <= 23){
       document.getElementById("historico").textContent = "pIIInto";

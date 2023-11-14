@@ -20,10 +20,10 @@ function botao(dado) {
       document.getElementById("historico").textContent = "";
     }
     if(hora >= 13 && hora <= 17){
-      document.getElementById("historico").textContent = "..";
+      document.getElementById("historico").textContent = "";
     }
     if(hora >= 18 && hora <= 23){
-      document.getElementById("historico").textContent = "pIIInto";
+      document.getElementById("historico").textContent = "";
     }
 }
 

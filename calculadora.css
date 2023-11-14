@@ -23,6 +23,10 @@
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+    
 }
 #visor{
   font-family: 'Press Start 2P', cursive;
@@ -39,6 +43,9 @@
   border-radius: 3px;
   -webkit-transition: border .2s ease-in-out;
   transition: border .2s ease-in-out;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0;
 }
 
 .centro {
